@@ -20,7 +20,7 @@ param privateDNSZoneName string = 'privatelink.postgres.database.azure.com'
 param skuCapacity int = 4
 
 @description('Azure database for PostgreSQL sku name ')
-param skuName string = 'GP_Gen5_2'
+param skuName string = 'GP_Gen5_4'
 
 @description('Azure database for PostgreSQL Sku Size. Valid storage sizes range from minimum of 5120 MB and additional increments of 1024 MB up to maximum of 1048576 MB."}]}')
 param skuSizeMB int = 5120

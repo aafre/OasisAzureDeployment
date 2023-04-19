@@ -54,7 +54,7 @@ resource sharedFs 'Microsoft.Storage/storageAccounts@2021-08-01' = {
     kind: 'FileStorage'
     tags: tags
     properties: {
-        accessTier: 'Premium'
+        accessTier: 'Hot'
         allowBlobPublicAccess: false
         supportsHttpsTrafficOnly: true
         minimumTlsVersion: 'TLS1_2'
