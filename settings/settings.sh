@@ -7,10 +7,10 @@ LOCATION="northcentralus"
 DNS_LABEL_NAME="pipeline-build-dev"
 
 # Email to use for letsencrypt certificates
-LETSENCRYPT_EMAIL=""
+LETSENCRYPT_EMAIL="samuel.gamble@oasislmf.org"
 
 # Name of the resource group to deploy to
-RESOURCE_GROUP="oasis-enterprise"
+RESOURCE_GROUP="oasis-enterprise-pipeline"
 
 # Image build settings - tell pip to trust certificates from pypi.org and files.pythonhosted.org,
 # do no verify them. In case your want to build locally and are behind a corporate proxy.

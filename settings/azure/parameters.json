@@ -4,6 +4,7 @@
   "parameters": {
     "allowedCidrRanges": {
       "value": [
+        "0.0.0.0/0"
       ]
     },
     "oasisServerAdminPassword": {
